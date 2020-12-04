@@ -1,0 +1,29 @@
+VERY IMPORTANT NOTE!!!!!!
+
+Create a database having name 'user-registration' (if you want to keep a different name, just make the changes in the 'config.php' file and change the existing database name i.e. (user-registration) to your desired name
+
+Now
+
+paste the code below in the sql section of you database
+
+__________________________________________________________________
+
+
+CREATE TABLE users (
+    id INT NOT NULL PRIMARY KEY AUTO_INCREMENT,
+    username VARCHAR(50) NOT NULL UNIQUE,
+    password VARCHAR(255) NOT NULL,
+    created_at DATETIME DEFAULT CURRENT_TIMESTAMP
+);
+
+
+___________________________________________________________________
+
+
+
+AND YOU HAVE CREATED THE TABLE SUCCESSFULLY!!!!!!!!!!!!!!!!!!!
+
+DONE BY 
+DEEP SINGH BHAMRA
+ROLL NO> 5
+BRANCH> T.E. COMPS/A
